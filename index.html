@@ -7,6 +7,7 @@
     <!-- Twitter Bootstrap -->
     <link rel="stylesheet" href="assets/vendor/bootstrap-3.3.5/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/vendor/bootstrap-3.3.5/css/bootstrap-theme.css"/>
+    <link rel="stylesheet" href="assets/vendor/bootstrap-3.3.5/css/bootstrap.min.css" >
 
     <!-- Master CSS -->
     <link rel="stylesheet" href="assets/css/master.css"/>
@@ -56,39 +57,90 @@
     </div><!-- /.container -->
 </nav>
 <!-- /nav -->
-
-
-
-
 <!-- header -->
 <header>
-    your header
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img class="first-slide" src="assets/images/html.jpg" alt="HTML image">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="header-text"> Let's learn HTML. </h1>
+                        <p class="header-text"> This course will learn you about basics of HTML 5. </p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="second-slide" src="assets/images/css.jpg" alt="CSS image">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="header-text"> CSS course </h1>
+                        <p class="header-text"> Go ahead and learn how to style your HTML with cascading style sheets </p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img class="third-slide" src="assets/images/js.jpg" alt="JS image">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="header-text"> Java Script too! </h1>
+                        <p class="header-text"> Push your sites to next level with Java Script </p>
+                        <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div><!-- /.carousel -->
 </header>
 <!-- /header -->
-
-
-
-
 <!-- main content -->
 <main class="container">
-    your main content
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div class="row">
+        <div class="col-lg-4">
+            <img class="logo" src="assets/images/html_logo.jpg" alt="html logo" width="140" height="140">
+            <h2>HTML 5</h2>
+            <p>With HTML you can create your own Web site. This tutorial teaches you everything about HTML. HTML is easy to learn - You will enjoy it.</p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="logo" src="assets/images/css_logo.jpg" alt="CSS logo" width="140" height="140">
+            <h2>CSS 3</h2>
+            <p> CSS is a stylesheet language that describes the presentation of an HTML (or XML) document. CSS describes how elements must be rendered on screen, on paper, or in other media. This tutorial will teach you CSS from basic to advanced.</p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+            <img class="logo" src="assets/images/js_logo.jpg" alt="Java Script logo" width="140" height="140">
+            <h2>Java Script</h2>
+            <p> JavaScript is the programming language of HTML and the Web. Programming makes computers do what you want them to do. JavaScript is easy to learn.This tutorial will teach you JavaScript from basic to advanced.</p>
+            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
 </main>
 <!-- /main content -->
-
-
-
-
 <!-- footer -->
 <footer>
-    your footer
+    <p class="pull-right"><a href="#">Back to top</a></p>
+    <p>&copy; 2015 STI LABS, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 </footer>
 <!-- /footer -->
 
